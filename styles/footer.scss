@@ -9,34 +9,78 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 400px) {
+  .footer__navigation {
+    width: 1140px;
+    height: 338px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 .about-company {
+  margin: 0 15px;
   margin-top: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #e3e3e3;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (min-width: 400px) {
+  .about-company {
+    align-items: baseline;
+  }
+}
 .footer__description {
   display: none;
+  line-height: 26px;
+  font-size: 18px;
+  width: 360px;
+  color: rgba(43, 41, 45, 0.6);
+  margin-top: 26px;
 }
 
 .downloads {
   margin-top: 31px;
+  display: flex;
+  justify-content: center;
 }
+
+@media screen and (min-width: 400px) {
+  .downloads {
+    margin-top: 25px;
+    justify-content: left;
+  }
+}
+
 .downloads__item {
   margin-right: 10px;
 }
 
 .additional-navigation {
-  margin-top: 60px;
-  margin-left: auto;
+  margin: 0px 15px;
   display: flex;
   flex-direction: column;
 }
 
+@media screen and (min-width: 400px) {
+  .additional-navigation {
+    margin-top: 60px;
+    margin-left: auto;
+    flex-direction: row;
+  }
+}
+
 .additional-navigation__column {
-  margin-right: 29px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 400px) {
+  .additional-navigation__column {
+    margin-right: 29px;
+    margin-top: 0;
+  }
 }
 
 .nav-links {
@@ -44,11 +88,12 @@
 }
 
 .nav-links__title {
+  margin: 0;
+  margin-bottom: 18px;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   color: #2b292d;
-  margin: 0;
 }
 
 .nav-links__list {
@@ -62,23 +107,45 @@
 }
 
 .footer__line {
-  width: 100%;
   border-top: 1px solid #2b292d;
+  width: 100%;
   opacity: 0.1;
-  margin: 0;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 400px) {
+  .footer__line {
+    margin: 0;
+  }
 }
 
 .footer__links {
-  height: 50px;
-  width: 1140px;
-  margin: 0 auto;
+  margin-left: 15px;
+  margin-top: 30px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 400px) {
+  .footer__links {
+    width: 1140px;
+    height: 50px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 .terms {
-  line-height: 50px;
   font-size: 14px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 400px) {
+  .terms {
+    line-height: 50px;
+    margin: 0;
+  }
 }
 
 .footer__terms_item {
@@ -89,17 +156,37 @@
 }
 
 .social-links {
-  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 23px;
+}
+
+@media screen and (min-width: 400px) {
+  .social-links {
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
 }
 
 .social-links__item {
-  margin-left: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 400px) {
+  .social-links__item {
+    margin-right: 0;
+    margin-left: 20px;
+  }
 }
 
 .logo-vertical {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.logo-vertical__image {
+  width: 60px;
+  height: 60px;
 }
 
 .logo-vertical__text {
@@ -114,15 +201,10 @@
 }
 
 .logo-vertical__description {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   opacity: 0.6;
   text-align: center;
-}
-
-.logo-vertical__image {
-  width: 60px;
-  height: 60px;
 }
 
 @media screen and (min-width: 400px) {
@@ -132,35 +214,6 @@
 
   .footer__description {
     display: block;
-    line-height: 26px;
-    font-size: 18px;
-    width: 360px;
-    color: rgba(43, 41, 45, 0.6);
-    margin-top: 26px;
-  }
-
-  .footer__navigation {
-    width: 1140px;
-    height: 338px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .about-company {
-    margin-top: 44px;
-    border: none;
-  }
-
-  .additional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .downloads {
-    margin-top: 25px;
   }
 }
 
