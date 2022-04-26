@@ -9,6 +9,7 @@
 @import 'features-mobile.scss';
 @import 'team-inbox.scss';
 @import 'object.scss';
+@import 'hiring.scss';
 
 html {
   font-size: 16px;
@@ -66,4 +67,11 @@ html {
   @include for-large-down {
     display: none;
   }
+}
+
+.icon-arrow_right {
+  display: block;
+  background: url(../img/hiring-string.png);
+  width: 7px;
+  height: 12px;
 }
