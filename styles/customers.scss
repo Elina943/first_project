@@ -52,3 +52,11 @@
     margin-top: 20px;
   }
 }
+
+.customer-bottom {
+  @include for-large-up {
+    height: 196px;
+    padding-top: 43px;
+    padding-bottom: 70px;
+  }
+}

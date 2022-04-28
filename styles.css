@@ -515,6 +515,14 @@
   margin-top: 20px;
 }
 
+@media screen and (min-width: 1400px) {
+  .customer-bottom {
+    height: 196px;
+    padding-top: 43px;
+    padding-bottom: 70px;
+  }
+}
+
 .features {
   display: flex;
   position: relative;
