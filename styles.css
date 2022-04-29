@@ -818,12 +818,14 @@
 
 .object {
   width: 100%;
+  height: 827px;
   background-color: #f4f5f7;
   padding: 50px 15px;
 }
 @media screen and (min-width: 1400px) {
   .object {
     width: 1400px;
+    height: 441px;
     padding: 0;
   }
 }
