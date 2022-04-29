@@ -8,7 +8,7 @@
 @import 'feature.scss';
 @import 'features-mobile.scss';
 @import 'team-inbox.scss';
-@import 'object.scss';
+@import 'order.scss';
 @import 'hiring.scss';
 @import 'communication.scss';
 @import 'audience.scss';
@@ -27,26 +27,13 @@ html {
 .page {
   width: 100%;
   overflow-x: hidden;
-}
 
-@media screen and (min-width: 400px) {
-  .page {
-    width: 1400px;
+  @include for-large-up {
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-
-  .action__button {
-    height: 48px;
-    width: 160px;
-    background-color: #3040c4;
-    border-radius: 2px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    border: none;
   }
 }
 
@@ -58,6 +45,19 @@ html {
   font-size: 18px;
   font-weight: 700;
   border: none;
+}
+
+@media screen and (min-width: 400px) {
+  .action__button {
+    height: 48px;
+    width: 160px;
+    background-color: #3040c4;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+  }
 }
 
 .hide_desktop {
