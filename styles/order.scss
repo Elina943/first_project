@@ -32,14 +32,16 @@
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.25px;
+    margin: 0;
     margin-top: 40px;
 
     @include for-large-up {
+      margin-top: 33px;
     }
   }
   &__text {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 34px;
     margin: 0;
     margin-top: 18px;
 
@@ -95,10 +97,8 @@
     font-size: 14px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
-
-    @include for-large-up {
-      margin-top: 10px;
-    }
+    margin: 0;
+    margin-top: 10px;
   }
 
   &__terms-link {
