@@ -109,6 +109,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+
       background: linear-gradient(
           180deg,
           rgba(255, 255, 255, 0.05) 0%,
@@ -145,7 +146,6 @@
     }
 
     &_img {
-      height: 195px;
       margin: 22px 0;
     }
 
@@ -158,20 +158,4 @@
       margin-bottom: 33px;
     }
   }
-}
-
-.img-dev {
-  width: 138px;
-}
-
-.img-entert {
-  width: 142px;
-}
-
-.img-ath {
-  width: 160px;
-}
-
-.img-creat {
-  width: 119px;
 }
